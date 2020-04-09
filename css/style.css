@@ -54,3 +54,47 @@ body{
   left: 0px;
   overflow: hidden;
 } 
+
+.footer {
+  height: 277px;
+  width: 320px;
+}
+
+.footer-list {
+  list-style-type: none;
+  height: 20px;
+  width: 320px;
+  background-color: #f0f0f0;
+  padding: 12px;
+}
+
+.footer-li {
+  height: 12px;
+  width: 124px;
+  color: #666666;
+  font-family: YuGothic;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: -0.82px;
+  line-height: 18px;
+}
+
+.footer-list-item {
+  margin-bottom: 20px;
+  color: #666;
+  font-size: 12px;
+}
+
+.copyright {
+  height: 65px;
+  width: 320px;
+  background-color: #c02;
+  padding: 10px 0;
+}
+
+.copyright-txt {
+  font-size: 10px;
+  line-height: 13px;
+  color: #d9d9d9;
+  text-align: center;
+}
