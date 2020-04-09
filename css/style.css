@@ -115,6 +115,33 @@ body{
   padding: 5px 5%;
 }
 
+.btn-group__item-red {
+  height: 50px;
+  width: 100%;
+  background-color: #c02;
+}
+
+.btn {
+  margin-bottom: 16px;
+  overflow: hidden;
+  height: 50px;
+  width: 100%;
+  background-color: #c02;
+  width: 90%;
+    margin: auto;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 6px;
+    display: table;
+    color: #fff;
+}
+.btn-center{
+  padding: 0 20px;
+    line-height: 1.2em;
+    display: table-cell;
+    vertical-align: middle;
+}
+
 /* フッダー */
 .footer {
   height: 277px;
