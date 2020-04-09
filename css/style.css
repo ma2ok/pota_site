@@ -72,6 +72,21 @@ body{
   line-height: 32px;
 }
 
+
+.login-text {
+  padding: 16px 0;
+  width: 90%;
+    margin: auto;
+  height: 42px;
+  width: 288px;
+  color: #333333;
+  font-family: YuGothic;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 21px;
+}
+
 /* フッダー */
 .footer {
   height: 277px;
