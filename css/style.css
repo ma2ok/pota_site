@@ -1,8 +1,9 @@
 @charset "UTF-8";
+/* 全体 */
 body{
   margin: 0;
 }
-
+/* ヘッダー */
 .header {
   list-style-type: none;
   width: 100%;
@@ -55,6 +56,23 @@ body{
   overflow: hidden;
 } 
 
+/* メイン */
+
+.add {
+  padding: 16px 0;
+  width: 90%;
+    margin: auto;
+  height: 64px;
+  width: 288px;
+  color: #CC0022;
+  font-family: YuGothic;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 32px;
+}
+
+/* フッダー */
 .footer {
   height: 277px;
   width: 320px;
