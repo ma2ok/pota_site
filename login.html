@@ -9,57 +9,58 @@
 <body>
   <header class="header">
     <ul class="header-block">
-      <il>
+      <li>
         <h1 class="header__logo"> <a class="header__logo-link" href=""><img src="img/logo-jp.gif" alt="損保ジャパンＤＣ証券"></a> </h1>
-      </il>
-      <il>
+      </li>
+      <li>
         <div class="header__answer"><img src="img/logo_an.gif" alt="アンサーネット"></div>
-      </il>
-      <il>
+      </li>
+      <li>
         <div class="header__en"><a id="imgBilingual" name="imgBilingual" onclick="" href=""><img src="img/language_en_off.gif" alt="language"></a></div>
-      </il>
+      </li>
     </ul>
   </header>
+
+
   <main class="content">
     <div class="login-out">
       <div class="head-wrap content-grit">
         <p class="head-wrap__title">加入者専用ページへのログイン</p>
       </div>
-
       <div class="txt-summary pdb16">
         <p class="txt-summary__item content-grit">
         ログインＩＤ・パスワードを入力してログインしてください。
       </p>
       </div>
-    </div>
-    <div class="user-info pdb16">
-      <div class="user-info-wrap__list">
-        <div class="user-info-wrap__list--item">
-          <p class="user-info-wrap__head">
-              ログインＩＤ</p>
-          <div class="user-info-wrap__inner">
-            <div class="input-box user-info-wrap__inner-input">
-              <input class="input-box__input" type="text" name="txtUserID" id="txtUserID" maxlength="10&quot;">
+      <div class="user-info pdb16">
+        <div class="user-info-wrap__list">
+          <div class="user-info-wrap__list--item">
+            <p class="user-info-wrap__head">
+                ログインＩＤ</p>
+            <div class="user-info-wrap__inner">
+              <div class="input-box user-info-wrap__inner-input">
+                <input class="input-box__input" type="text" name="txtUserID" id="txtUserID" maxlength="10&quot;">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="user-info-wrap__list">
+          <div class="user-info-wrap__list--item">
+            <p class="user-info-wrap__head">
+                パスワード</p>
+            <div class="user-info-wrap__inner">
+              <div class="input-box user-info-wrap__inner-input">
+                <input class="input-box__input" type="password" name="txtPassword" id="txtPassword" maxlength="15&quot;">
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="user-info-wrap__list">
-        <div class="user-info-wrap__list--item">
-          <p class="user-info-wrap__head">
-              パスワード</p>
-          <div class="user-info-wrap__inner">
-            <div class="input-box user-info-wrap__inner-input">
-              <input class="input-box__input" type="password" name="txtPassword" id="txtPassword" maxlength="15&quot;">
-            </div>
-          </div>
-        </div>
+      <div class="btn-group content-grit mgb16">
+        <div class="btn-group__item-red">
+        <a class="btn-group__item--txt-white" id="btnLogin" href="javascript:__doPostBack('btnLogin','')" onclick="return LoginDisabledDblClick('IDが入力されていません。','入力したＩＤ・パスワードに誤りがあります。ご確認の上、もう一度入力してください。','パスワードが入力されていません。','入力したＩＤ・パスワードに誤りがあります。ご確認の上、もう一度入力してください。');">ログイン</a></div>
       </div>
-    </div>
-    <div class="btn-group content-grit mgb16">
-      <div class="btn-group__item-red">
-      <a class="btn-group__item--txt-white" id="btnLogin" href="javascript:__doPostBack('btnLogin','')" onclick="return LoginDisabledDblClick('IDが入力されていません。','入力したＩＤ・パスワードに誤りがあります。ご確認の上、もう一度入力してください。','パスワードが入力されていません。','入力したＩＤ・パスワードに誤りがあります。ご確認の上、もう一度入力してください。');">ログイン</a></div>
-    </div>
+
   </main>
 </body>
 </html>
