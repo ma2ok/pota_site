@@ -87,6 +87,34 @@ body{
   line-height: 21px;
 }
 
+.log-id {
+  color: #333;
+  font-weight: bold;
+  background-color: #f4f8fb;
+  padding: 5px 5%;
+}
+
+.inp {
+  padding: 16px 0;
+  width: 90%;
+  margin: auto;
+  box-sizing: border-box;
+  height: 48px;
+  width: 288px;
+  border: 1px solid #DCDFE0;
+  border-radius: 6px;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.log-pass {
+  color: #333;
+  font-weight: bold;
+  background-color: #f4f8fb;
+  padding: 5px 5%;
+}
+
 /* フッダー */
 .footer {
   height: 277px;
