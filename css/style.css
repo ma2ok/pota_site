@@ -1,16 +1,18 @@
 @charset "UTF-8";
+
 /* 全体 */
+
 body {
   margin: 0;
   width: 100%;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-li a{
-  display:block;
+li a {
+  display: block;
 }
 
 img {
@@ -18,7 +20,9 @@ img {
   width: 100%;
 }
 
+
 /* ヘッダー */
+
 .header-block {
   list-style-type: none;
   width: 100%;
@@ -36,10 +40,12 @@ img {
   padding-right: 5px;
   padding-bottom: 16px;
 }
-.logo-jp{
+
+.logo-jp {
   width: 100%;
 }
-.logo-jp img{
+
+.logo-jp img {
   width: 167px;
   height: 46px;
   margin-right: 10px;
@@ -47,37 +53,44 @@ img {
   top: 16px;
   left: 10px;
 }
-.logo-an{
+
+.logo-an {
   position: absolute;
   top: 26px;
   left: 187px;
-  }
-.logo-an img{
+}
+
+.logo-an img {
   width: 60px;
   height: 11.17px;
 }
+
 .lang {
   height: 21px;
   position: absolute;
   top: 26px;
   right: 16px;
 }
-.lang img{
+
+.lang img {
   width: 46px;
   height: 21px;
 }
-.ris{
+
+.ris {
   height: 0px;
 }
-.ris img{
-  height: 8px;;
+
+.ris img {
+  height: 8px;
+  ;
   position: absolute;
   top: 57px;
   left: 0px;
   overflow: hidden;
-  width:100%;
+  width: 100%;
   background-color: #FFFFFF;
-} 
+}
 
 .sticky {
   position: -webkit-sticky;
@@ -86,12 +99,13 @@ img {
   background-color: #FFFFFF;
 }
 
+
 /* メイン */
 
 .add {
   padding: 16px 0;
   width: 90%;
-    margin: auto;
+  margin: auto;
   color: #CC0022;
   font-family: YuGothic;
   font-size: 24px;
@@ -103,7 +117,7 @@ img {
 .login-text {
   padding: 16px 0;
   width: 90%;
-    margin: auto;
+  margin: auto;
   color: #333333;
   font-family: YuGothic;
   font-size: 14px;
@@ -152,18 +166,19 @@ img {
   width: 100%;
   background-color: #c02;
   width: 90%;
-    margin: auto;
-    font-weight: bold;
-    text-align: center;
-    border-radius: 6px;
-    display: table;
-    color: #fff;
+  margin: auto;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 6px;
+  display: table;
+  color: #fff;
 }
-.btn-center{
+
+.btn-center {
   padding: 0 20px;
-    line-height: 1.2em;
-    display: table-cell;
-    vertical-align: middle;
+  line-height: 1.2em;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .link-list {
@@ -177,25 +192,25 @@ img {
   color: #004fce;
 }
 
-.body-text_m{
+.body-text_m {
   margin-left: 22px;
   margin-bottom: 24px;
   font-size: 12px;
 }
 
-.body-text-main{
+.body-text-main {
   margin-left: 22px;
   margin-bottom: 24px;
   font-size: 14px;
-    color: #212121;
-    font-family: YuGothic;
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 0;
-    line-height: 21px;
-    width: 90%;
-    margin: auto;
-    margin-bottom: 24px;
+  color: #212121;
+  font-family: YuGothic;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 21px;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 24px;
 }
 
 .bottom-area {
@@ -212,7 +227,6 @@ img {
 .bottom-area__icon {
   width: 15px;
   padding-top: 8px;
-
 }
 
 .bottom-area__img {
@@ -221,7 +235,9 @@ img {
   float: left;
 }
 
+
 /* フッダー */
+
 .footer {
   height: 277px;
   width: 100%;
@@ -265,6 +281,7 @@ img {
   color: #d9d9d9;
   text-align: center;
 }
+
 
 /* 三角 */
 
