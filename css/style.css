@@ -162,7 +162,8 @@ nav a {
   letter-spacing: 0;
   line-height: 32px;
 }
-.top-text-li{
+
+.top-text-li {
   border-top: solid 1px #989C9D;
 }
 
@@ -281,7 +282,6 @@ nav a {
   color: #333333;
 }
 
-
 .bottom-area {
   border-top: solid 1px #e3decf;
 }
@@ -311,7 +311,7 @@ nav a {
   border: 1px solid #DCDFE0;
   background-color: #F4F8FB;
   margin: auto;
-  text-align:center;
+  text-align: center;
 }
 
 .box-inv-hd-txt {
@@ -331,8 +331,6 @@ nav a {
   margin: auto;
   border: 1px solid #DCDFE0;
   background-color: #FFFFFF;
-
-  
 }
 
 .box-inv-txt {
@@ -343,23 +341,22 @@ nav a {
   font-weight: bold;
   letter-spacing: 0;
   line-height: 18px;
-
   padding-left: 28px;
-
 }
 
-.checkbox-input{
+.checkbox-input {
   display: none;
 }
-.checkbox-parts{
-  position:relative;
+
+.checkbox-parts {
+  position: relative;
 }
-.checkbox-parts::before{
+
+.checkbox-parts::before {
   content: "";
   display: block;
   position: absolute;
   top: 0;
-
   box-sizing: border-box;
   height: 24px;
   width: 24px;
@@ -367,10 +364,12 @@ nav a {
   border-radius: 4px;
   background-color: #FFFFFF;
 }
-.checkbox-input:checked + .checkbox-parts{
+
+.checkbox-input:checked+.checkbox-parts {
   color: #d01137;
 }
-.checkbox-input:checked + .checkbox-parts::after{
+
+.checkbox-input:checked+.checkbox-parts::after {
   content: "";
   display: block;
   position: absolute;
@@ -383,7 +382,7 @@ nav a {
   border-right: 3px solid #d01137;
 }
 
-.txt-adr{
+.txt-adr {
   height: 14px;
   color: #212121;
   font-family: YuGothic;
@@ -391,12 +390,12 @@ nav a {
   font-weight: bold;
   letter-spacing: 0;
   line-height: 21px;
-
   padding: 16px 0;
   width: 90%;
   margin: auto;
   font-family: YuGothic;
 }
+
 
 /* フッダー */
 
