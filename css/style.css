@@ -304,7 +304,7 @@ nav a {
   float: left;
 }
 
-.box-inv {
+.box-inv-hd {
   box-sizing: border-box;
   height: 32px;
   width: 90%;
@@ -314,7 +314,7 @@ nav a {
   text-align:center;
 }
 
-.inv-text {
+.box-inv-hd-txt {
   height: 12px;
   color: #212121;
   font-family: YuGothic;
@@ -322,6 +322,65 @@ nav a {
   font-weight: bold;
   letter-spacing: 0;
   line-height: 18px;
+}
+
+.box-inv {
+  box-sizing: border-box;
+  height: 41px;
+  width: 90%;
+  margin: auto;
+  border: 1px solid #DCDFE0;
+  background-color: #FFFFFF;
+
+  
+}
+
+.box-inv-txt {
+  height: 12px;
+  color: #212121;
+  font-family: YuGothic;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 18px;
+
+  padding-left: 28px;
+
+}
+
+.checkbox-input{
+  display: none;
+}
+.checkbox-parts{
+  position:relative;
+}
+.checkbox-parts::before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+
+  box-sizing: border-box;
+  height: 24px;
+  width: 24px;
+  border: 2px solid #777777;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+}
+.checkbox-input:checked + .checkbox-parts{
+  color: #d01137;
+}
+.checkbox-input:checked + .checkbox-parts::after{
+  content: "";
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: 5px;
+  width: 7px;
+  height: 14px;
+  transform: rotate(40deg);
+  border-bottom: 3px solid #d01137;
+  border-right: 3px solid #d01137;
 }
 
 /* フッダー */
