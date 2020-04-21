@@ -112,6 +112,43 @@ img {
   height: 48px;
 }
 
+
+/* ナビゲーション */
+
+nav {
+  text-align: center;
+}
+
+nav ul {
+  width: 90%;
+  background-color: #FFFFFF;
+  padding-left: 16px;
+  padding-top: 16px;
+  margin-top: 0px;
+  white-space: nowrap;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  width: 10%;
+  min-width: 105px;
+}
+
+nav li:not(:last-child) {
+  border-right: 1px solid #F0F0F0;
+}
+
+nav a {
+  color: #777777;
+  font-family: YuGothic;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: -1.09px;
+  line-height: 24px;
+}
+
+
 /* メイン */
 
 .add {
