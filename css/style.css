@@ -304,6 +304,25 @@ nav a {
   float: left;
 }
 
+.box-inv {
+  box-sizing: border-box;
+  height: 32px;
+  width: 90%;
+  border: 1px solid #DCDFE0;
+  background-color: #F4F8FB;
+  margin: auto;
+  text-align:center;
+}
+
+.inv-text {
+  height: 12px;
+  color: #212121;
+  font-family: YuGothic;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 18px;
+}
 
 /* フッダー */
 
