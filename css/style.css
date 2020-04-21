@@ -383,6 +383,21 @@ nav a {
   border-right: 3px solid #d01137;
 }
 
+.txt-adr{
+  height: 14px;
+  color: #212121;
+  font-family: YuGothic;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 21px;
+
+  padding: 16px 0;
+  width: 90%;
+  margin: auto;
+  font-family: YuGothic;
+}
+
 /* フッダー */
 
 .footer {
