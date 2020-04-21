@@ -151,7 +151,7 @@ nav a {
 
 /* メイン */
 
-.add {
+.top-text {
   padding: 16px 0;
   width: 90%;
   margin: auto;
@@ -161,6 +161,9 @@ nav a {
   font-weight: bold;
   letter-spacing: 0;
   line-height: 32px;
+}
+.top-text-li{
+  border-top: solid 1px #989C9D;
 }
 
 .login-text {
