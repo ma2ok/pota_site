@@ -100,6 +100,17 @@ img {
   background-color: #FFFFFF;
 }
 
+.menu {
+  height: 54.26px;
+  position: absolute;
+  top: 6px;
+  right: 8px;
+}
+
+.menu img {
+  width: 48px;
+  height: 48px;
+}
 
 /* メイン */
 
