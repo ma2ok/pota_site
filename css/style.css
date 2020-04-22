@@ -151,6 +151,10 @@ nav a {
   border-bottom: 2px solid #CC0022;
 }
 
+.aida{
+  padding-top: 24px;
+}
+
 .gray-li{
   border-bottom: 1px solid #989C9D;
 }
@@ -351,6 +355,21 @@ nav a {
   margin-top: 8px;
   opacity: 0.88;
   height: 210px;
+  color: #333333;
+  font-family: YuGothic;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 21px;
+}
+
+.body-text-main-h1 {
+  margin-left: 22px;
+  width: 90%;
+  margin: auto;
+  margin-top: 8px;
+  opacity: 0.88;
+  height: 42px;
   color: #333333;
   font-family: YuGothic;
   font-size: 14px;
