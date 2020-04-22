@@ -344,7 +344,7 @@ nav a {
   margin: auto;
   margin-bottom: 24px;
   opacity: 0.88;
-  height: 110px;
+  height: 210px;
   color: #333333;
   font-family: YuGothic;
   font-size: 14px;
@@ -461,6 +461,16 @@ tr {
   line-height: 18px;
 }
 
+.dl-txt{
+  height: 12px;
+  color: #004FCE;
+  font-family: YuGothic;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+
 .box-bl {
   background-color: #F4F8FB;
   border: 1px solid #ccc;
@@ -473,7 +483,7 @@ th {
 }
 
 td {
-  width: 152px;
+  width: 76px;
   border: 1px solid #ccc;
   /* 枠線 */
 }
