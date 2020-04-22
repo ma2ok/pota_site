@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 /* 全体 */
 
 body {
@@ -19,7 +18,6 @@ img {
   display: block;
   width: 100%;
 }
-
 
 /* ヘッダー */
 
@@ -112,7 +110,6 @@ img {
   height: 48px;
 }
 
-
 /* ナビゲーション */
 
 nav {
@@ -147,7 +144,6 @@ nav a {
   letter-spacing: -1.09px;
   line-height: 24px;
 }
-
 
 /* メイン */
 
@@ -333,7 +329,6 @@ nav a {
   margin-bottom: 24px;
   opacity: 0.88;
   color: #212121;
-
   height: 40px;
   font-family: YuGothic;
   font-size: 20px;
@@ -349,7 +344,6 @@ nav a {
   margin: auto;
   margin-bottom: 24px;
   opacity: 0.88;
-
   height: 110px;
   color: #333333;
   font-family: YuGothic;
@@ -420,34 +414,35 @@ nav a {
   background-color: #FFFFFF;
 }
 
-table{
+table {
   margin-top: 25px;
   overflow-x: auto;
   border-collapse: collapse;
   border: 1px solid #75768b;
   margin: auto;
   width: 90%;
-
 }
 
-tbody{
+tbody {
   display: table-row-group;
-    vertical-align: middle;
-    border-color: inherit;
+  vertical-align: middle;
+  border-color: inherit;
 }
 
-tr{
+tr {
   margin: 2em auto;
   padding: 1em;
   width: 90%;
-  border: 1px solid #ccc; /* 枠線 */
+  border: 1px solid #ccc;
+  /* 枠線 */
 }
 
-.tr-cl{
-  border: 1px solid #F4F8FB; /* 枠線 */
+.tr-cl {
+  border: 1px solid #F4F8FB;
+  /* 枠線 */
 }
 
-.ri-txt{
+.ri-txt {
   height: 12px;
   color: #212121;
   font-family: YuGothic;
@@ -457,7 +452,7 @@ tr{
   line-height: 18px;
 }
 
-.le-txt{
+.le-txt {
   height: 12px;
   color: #212121;
   font-family: "Hiragino Sans";
@@ -466,21 +461,25 @@ tr{
   line-height: 18px;
 }
 
-.box-bl{
+.box-bl {
   background-color: #F4F8FB;
-  border: 1px solid #ccc; /* 枠線 */
+  border: 1px solid #ccc;
+  /* 枠線 */
 }
 
-th{
-  border: 1px solid #ccc; /* 枠線 */
+th {
+  border: 1px solid #ccc;
+  /* 枠線 */
 }
 
-td{width: 152px;
-  border: 1px solid #ccc; /* 枠線 */
+td {
+  width: 152px;
+  border: 1px solid #ccc;
+  /* 枠線 */
 }
 
-.b-b-h{
-  border-bottom:hidden;
+.b-b-h {
+  border-bottom: hidden;
 }
 
 .box-inv-txt {
@@ -546,7 +545,6 @@ td{width: 152px;
   font-family: YuGothic;
 }
 
-
 /* フッダー */
 
 .footer {
@@ -592,7 +590,6 @@ td{width: 152px;
   color: #d9d9d9;
   text-align: center;
 }
-
 
 /* 三角 */
 
