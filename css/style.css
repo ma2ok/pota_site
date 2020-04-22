@@ -420,6 +420,38 @@ nav a {
   background-color: #FFFFFF;
 }
 
+table{
+  margin-top: 25px;
+  overflow-x: auto;
+  border-collapse: collapse;
+  border: 1px solid #75768b;
+  width: 90%;
+  margin: auto;
+}
+
+tbody{
+  display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+    width: 90%;
+}
+
+tr{
+  margin: 2em auto;
+  padding: 1em;
+  width: 90%;
+  background-color: #fff; /* 背景色 */
+  border: 1px solid #ccc; /* 枠線 */
+}
+
+th{
+  border: 1px solid #ccc; /* 枠線 */
+}
+
+td{
+  border: 1px solid #ccc; /* 枠線 */
+}
+
 .box-inv-txt {
   height: 12px;
   color: #212121;
