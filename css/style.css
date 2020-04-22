@@ -425,22 +425,49 @@ table{
   overflow-x: auto;
   border-collapse: collapse;
   border: 1px solid #75768b;
-  width: 90%;
   margin: auto;
+  width: 90%;
+
 }
 
 tbody{
   display: table-row-group;
     vertical-align: middle;
     border-color: inherit;
-    width: 90%;
 }
 
 tr{
   margin: 2em auto;
   padding: 1em;
   width: 90%;
-  background-color: #fff; /* 背景色 */
+  border: 1px solid #ccc; /* 枠線 */
+}
+
+.tr-cl{
+  border: 1px solid #F4F8FB; /* 枠線 */
+}
+
+.ri-txt{
+  height: 12px;
+  color: #212121;
+  font-family: YuGothic;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+
+.le-txt{
+  height: 12px;
+  color: #212121;
+  font-family: "Hiragino Sans";
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+
+.box-bl{
+  background-color: #F4F8FB;
   border: 1px solid #ccc; /* 枠線 */
 }
 
@@ -448,8 +475,12 @@ th{
   border: 1px solid #ccc; /* 枠線 */
 }
 
-td{
+td{width: 152px;
   border: 1px solid #ccc; /* 枠線 */
+}
+
+.b-b-h{
+  border-bottom:hidden;
 }
 
 .box-inv-txt {
