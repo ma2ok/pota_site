@@ -325,6 +325,23 @@ nav a {
   line-height: 18px;
 }
 
+.body-text-main-k {
+  margin-left: 22px;
+  margin-bottom: 24px;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 24px;
+  opacity: 0.88;
+  color: #212121;
+
+  height: 40px;
+  font-family: YuGothic;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
 .bottom-area {
   border-top: solid 1px #e3decf;
 }
@@ -351,6 +368,16 @@ nav a {
   box-sizing: border-box;
   height: 32px;
   width: 90%;
+  border: 1px solid #DCDFE0;
+  background-color: #F4F8FB;
+  margin: auto;
+  text-align: center;
+}
+
+.box-inv-hd-h {
+  box-sizing: border-box;
+  height: 32px;
+  width: 45%;
   border: 1px solid #DCDFE0;
   background-color: #F4F8FB;
   margin: auto;
