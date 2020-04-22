@@ -147,6 +147,14 @@ nav a {
 
 /* メイン */
 
+.red-li {
+  border-bottom: 2px solid #CC0022;
+}
+
+.gray-li{
+  border-bottom: 1px solid #989C9D;
+}
+
 .top-text {
   padding: 16px 0;
   width: 90%;
@@ -306,7 +314,6 @@ nav a {
 
 .body-text-main-s {
   margin-left: 22px;
-  margin-bottom: 24px;
   font-size: 14px;
   font-weight: 500;
   width: 90%;
@@ -323,10 +330,10 @@ nav a {
 
 .body-text-main-k {
   margin-left: 22px;
-  margin-bottom: 24px;
   width: 90%;
   margin: auto;
-  margin-bottom: 24px;
+  margin-top: 11px;
+  margin-bottom: 4px;
   opacity: 0.88;
   color: #212121;
   height: 40px;
@@ -339,10 +346,9 @@ nav a {
 
 .body-text-main-h {
   margin-left: 22px;
-  margin-bottom: 24px;
   width: 90%;
   margin: auto;
-  margin-bottom: 24px;
+  margin-top: 8px;
   opacity: 0.88;
   height: 210px;
   color: #333333;
