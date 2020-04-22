@@ -342,6 +342,23 @@ nav a {
   line-height: 30px;
 }
 
+.body-text-main-h {
+  margin-left: 22px;
+  margin-bottom: 24px;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 24px;
+  opacity: 0.88;
+
+  height: 110px;
+  color: #333333;
+  font-family: YuGothic;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 21px;
+}
+
 .bottom-area {
   border-top: solid 1px #e3decf;
 }
