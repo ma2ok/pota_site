@@ -378,6 +378,21 @@ nav a {
   line-height: 21px;
 }
 
+.body-text-main-h2 {
+  margin-left: 22px;
+  width: 90%;
+  margin: auto;
+  margin-top: 8px;
+  opacity: 0.88;
+  color: #333333;
+  font-family: YuGothic;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 21px;
+  height: 63px;
+}
+
 .bottom-area {
   border-top: solid 1px #e3decf;
 }
